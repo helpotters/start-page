@@ -1,0 +1,307 @@
+/* HOME PAGE CSS*/
+html,body
+{		
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+/*Table of Contents*/
+
+
+/*1.Formatting*/
+	/*1. Jumbotron*/
+		/*1. Mobile*/
+	/*2. Links*/
+		/*1. Mobile*/
+		/*2. Desktop*/
+	/*3. Search Bar*/
+  	/*4. Apps*/
+/*2. Typography*/
+	/*1. Headers*/
+	/*2. Subheaders*/
+	/*3. Links*/
+/*3. Colors*/
+ 	/*1. Jumbotron*/
+/*4. Images*/
+	/*1. Jumbotron*/
+/*5. Animations*/
+
+
+
+
+/*1. Formatting*/
+
+	/*1. Jumbotron*/
+		.jumbotron{
+			margin-right: auto;
+			margin-left:auto;
+			text-align:center;
+			/*Paddign*/
+			padding: 2em;
+			padding-top: 7em;
+		}
+		.campaign {
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			padding-bottom: 1em;
+
+		}
+		div#left{
+			text-align: right;
+		}
+		div#right{
+			text-align: left;
+		}
+		div.bulletin{
+			width:50%;
+		}
+		div.row.fadren{
+			height:100%;
+		}
+		/*1. Mobile*/
+		@media (min-width: 300px) and (max-width: 900px){
+			.jumbotron{
+				padding: 1em;
+			}
+			}
+		}
+		h1{
+			padding: .2em;
+		}
+		h2{
+			padding:.2em;
+		}
+		iframe#bulletin{
+			padding:2em;
+			padding-left:2em;
+			height: 60%;
+			width: 100%;
+			
+		}
+		/*Fadren Page*/
+		div.map{
+			width:100%;
+			height: 100%;
+			padding:1em;
+
+		}
+		iframe#map{
+			width: 100%;
+			height:100%;
+		}
+		div.wiki{
+			float:right;
+			width: auto;
+			padding-top: 0;
+			margin-top: 0;
+		}
+	/*2. Links*/
+		.links{
+			padding: 6em;
+		}
+		/*1. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				.links{
+					display: none;
+				}
+				.apps{
+					display: block;
+				}
+			}
+		/*2. Desktop*/
+			@media (min-width: 900px){
+				.apps{
+					display: none;
+				}
+			}
+	/*3. Search Bar*/
+		div.search{
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			width: 30%;
+		}
+		/*1. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				div.search{
+					width: 50%;
+				}
+			}
+		button{
+			display: none;
+		}
+	/*4. Apps*/
+		div.apps{
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			padding-top: 3em;
+		}
+		/*1. Icons*/
+			div.apps a{
+				padding: 3em;
+			}
+			div.apps .col-sm{
+				padding-top: 3em;
+			}
+/*2. Typography*/
+	/*1 Header*/
+		h1{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+		h2{
+			font-family: 'Montserrat', sans-serif;
+			color: white;
+		}
+		p{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+		td{font-family: 'Press Start 2P', cursive;
+			color: white;}
+	/*2. Subheader*/
+		h4{
+			font-family: 'Montserrat', sans-serif;
+			color: white;
+		}
+		p#hearts{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+	/*3. Links*/
+		a{
+			font-family: 'Doris', sans-serif;
+			color: white !important;
+		}
+		li{
+			font-family: 'Doris', sans-serif;
+		}
+		li.active{
+			color:white!important;
+		}
+	/*4. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				h1{
+					font-size: 2em;
+				}
+				h4{
+					font-size: 1.2em;
+				}
+			}
+/*3. Colors*/
+	/*1. Jumbotron*/
+		.jumbotron{
+			background-color:  #282a36 ;
+		}
+		body{
+			background-color:  #282a36 ;
+		}
+		.list-group-item{
+			background-color: #44475a;
+		}
+		.list-group-item:hover{
+			background-color: 	#44475a;
+		}
+		ul#personal .active{
+			background-color: #bd93f9;
+		}
+		ul#academia .active{
+			background-color: #ff79c6;
+		}
+		ul#portfolio .active{
+			background-color: #ff5555;
+		}
+		ul#misc .active{
+			background-color:#50fa7b;
+		}
+/*4. Images*/
+	/*1. Jumbotron*/
+		.jumbotron img{
+			height: auto;
+			width: 20%;
+		}
+		img.campaign{
+			border-radius:100%;
+			height: 8em;
+			width: auto;
+		}
+		div.campaign{
+			
+		}
+		img.portrait{
+			height:8em;
+			width:auto;
+		}
+		img#banner{
+			padding: 1em;
+		}
+		/*1. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				.jumbotron img{
+					height: 6em;
+				}
+			}
+		div.apps img{
+			width: 20%;
+		}
+/*5. Animations*/
+	.blinking-cursor {
+	  font-weight: 100;
+	  color: #2E3D48;
+	  -webkit-animation: 1s blink step-end infinite;
+	  -moz-animation: 1s blink step-end infinite;
+	  -ms-animation: 1s blink step-end infinite;
+	  -o-animation: 1s blink step-end infinite;
+	  animation: 1s blink step-end infinite;
+	}
+
+	@keyframes "blink" {
+	  from, to {
+	    color: transparent;
+	  }
+	  50% {
+	    color: white;
+	  }
+	}
+
+	@-moz-keyframes blink {
+	  from, to {
+	    color: transparent;
+	  }
+	  50% {
+	    color: white;
+	  }
+	}
+
+	@-webkit-keyframes "blink" {
+	  from, to {
+	    color: transparent;
+	  }
+	  50% {
+	    color: white;
+	  }
+	}
+
+	@-ms-keyframes "blink" {
+	  from, to {
+	    color: transparent;
+	  }
+	  50% {
+	    color: white;
+	  }
+	}
+
+	@-o-keyframes "blink" {
+	  from, to {
+	    color: transparent;
+	  }
+	  50% {
+	    color: white;
+	  }
+	}
